@@ -5,6 +5,6 @@
 
 using namespace std;
 
-__attribute__((weak)) void puncha_bar() {
+__attribute__((weak)) void puncha_foo() {
     std::cout<<"foo in static_lib_weak"<<endl;
 }
