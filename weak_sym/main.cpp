@@ -1,7 +1,12 @@
 #import "PunCha.h"
+#import <iostream>
 
 int main() {
     puncha_foo();
-    puncha_bar();
+    if (!puncha_bar) {
+        puncha_bar();
+    } else {
+        std::cout<<"puncha_bar() is not defined!" << std::endl;
+    }
     return 0;
 }
