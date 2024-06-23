@@ -6,6 +6,6 @@
 
 using namespace std;
 
-void puncha_bar() {
-    std::cout<<"bar in static_lib_strong"<<endl;
+void puncha_foo() {
+    std::cout<<"foo in static_lib_strong"<<endl;
 }
