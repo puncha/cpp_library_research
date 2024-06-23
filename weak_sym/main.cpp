@@ -3,7 +3,7 @@
 
 int main() {
     puncha_foo();
-    if (!puncha_bar) {
+    if (puncha_bar) {
         puncha_bar();
     } else {
         std::cout<<"puncha_bar() is not defined!" << std::endl;
