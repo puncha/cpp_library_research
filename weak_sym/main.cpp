@@ -1,5 +1,5 @@
-#import "PunCha.h"
-#import <iostream>
+#include "PunCha.h"
+#include <iostream>
 
 int main() {
     puncha_foo();
